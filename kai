@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use App\Core\Commands\MakeController;
+
+$cli = new Application('Kai CLI', '1.0.0');
+
+// Register commands here
+$cli->add(new MakeController());
+
+$cli->run();

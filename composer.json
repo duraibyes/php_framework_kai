@@ -1,0 +1,22 @@
+{
+    "name": "durairaj-s/kai",
+    "type": "project",
+    "license": "0.01",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Core/Helper/commonHelper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "durairaj",
+            "email": "duraibytes@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^7.3"
+    }
+}
